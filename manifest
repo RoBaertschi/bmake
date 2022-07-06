@@ -1,0 +1,12 @@
+: 1
+name: bmake
+version: 0.1.0-a.0.z
+summary: bmake C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/bmake
+email: rtmbaertschi007@gmail.com
+#build-error-email: rtmbaertschi007@gmail.com
+depends: * build2 >= 0.14.0
+depends: * bpkg >= 0.14.0
+depends: libboost-program-options ^1.78.0

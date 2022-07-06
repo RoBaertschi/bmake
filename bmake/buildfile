@@ -1,0 +1,6 @@
+libs =
+import libs += libboost-program-options%lib{boost_program_options}
+
+exe{bmake}: {hxx ixx txx cxx}{**} $libs testscript
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"
