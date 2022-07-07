@@ -1,3 +1,4 @@
+.cache/
 .bdep/
 
 # Local default options files.
